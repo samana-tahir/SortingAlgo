@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74B9DD62212A766C00B79B15 /* SortingAlgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B9DD61212A766C00B79B15 /* SortingAlgo.m */; };
+		74B9DD62212A766C00B79B15 /* SortingAlgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B9DD61212A766C00B79B15 /* SortingAlgo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		74B9DD63212A766C00B79B15 /* SortingAlgo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74B9DD60212A766C00B79B15 /* SortingAlgo.h */; };
+		74B9DD6E212A76D000B79B15 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 74B9DD6D212A76D000B79B15 /* sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		74B9DD5D212A766C00B79B15 /* libSortingAlgo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSortingAlgo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B9DD60212A766C00B79B15 /* SortingAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortingAlgo.h; sourceTree = "<group>"; };
 		74B9DD61212A766C00B79B15 /* SortingAlgo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortingAlgo.m; sourceTree = "<group>"; };
+		74B9DD6C212A76D000B79B15 /* sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		74B9DD6D212A76D000B79B15 /* sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				74B9DD60212A766C00B79B15 /* SortingAlgo.h */,
 				74B9DD61212A766C00B79B15 /* SortingAlgo.m */,
+				74B9DD6C212A76D000B79B15 /* sort.h */,
+				74B9DD6D212A76D000B79B15 /* sort.c */,
 			);
 			path = SortingAlgo;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B9DD62212A766C00B79B15 /* SortingAlgo.m in Sources */,
+				74B9DD6E212A76D000B79B15 /* sort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

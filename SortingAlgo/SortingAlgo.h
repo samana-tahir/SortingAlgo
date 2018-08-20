@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface SortingAlgo : NSObject
+-(NSArray*)sortMoviesArray:(NSArray*)array;
 
 @end
